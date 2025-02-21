@@ -5,7 +5,7 @@ Software Engineering Day1 Assignment
 #Part 1: Introduction to Software Engineering
 
 Explain what software engineering is and discuss its importance in the technology industry.
- is the practice of designing, developing, testing, and maintaining software systems to perform a particular function.Its importance is to develop systems that solve a real world problem such as in  healthcare, finance, and transportation.
+Software engineering is the practice of designing, developing, testing, and maintaining software systems to perform a particular function.Its importance is to develop systems that solve a real world problem such as in  healthcare, finance, and transportation.
 
 Identify and describe at least three key milestones in the evolution of software engineering.
 The Development of Early Programming Languages (1950s–1960s): The birth of programming languages like Fortran, Lisp, and COBOL marked a huge milestone in the evolution of software engineering. Before this, programming was done directly with machine code, which was tedious and error-prone. These high-level programming languages made coding more accessible and efficient, setting the stage for more sophisticated software development. It was a shift from assembly-level thinking to focusing more on problem-solving, enabling the growth of complex systems.
@@ -41,7 +41,7 @@ What are some common challenges faced by software engineers? Provide strategies 
 Strategies to Overcome:Code Reviews: Regular code reviews can help catch problems early and ensure the code is clean, readable, and maintainable.
 2.Managing Time and Deadlines-Software engineers often work under tight deadlines and may struggle to prioritize tasks or estimate how long a project will take.
 Strategies to Overcome:Break Tasks into Smaller Chunks: Break down large tasks into smaller, manageable parts with clear deadlines. This can make progress more measurable and deadlines less daunting.
- 3.Handling Bugs and Debugging-Bugs are inevitable, and debugging can be a time-consuming process. Complex issues can be difficult to identify, especially in large codebases.
+3.Handling Bugs and Debugging-Bugs are inevitable, and debugging can be a time-consuming process. Complex issues can be difficult to identify, especially in large codebases.
  Strategies to Overcome:Use Debugging Tools: Modern IDEs and debuggers offer powerful tools like breakpoints, variable inspection, and log tracking, which make debugging faster and easier.
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
