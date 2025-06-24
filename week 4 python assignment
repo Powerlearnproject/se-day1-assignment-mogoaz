@@ -1,0 +1,32 @@
+def process_file():
+    # Ask user for the file name
+    filename = input("📂 Enter the name of the file to read (e.g., input.txt): ")
+
+    try:
+        # Try to open and read the file
+        with open(filename, "r") as f:
+            lines = f.readlines()
+
+        # Modify the content (e.g., reverse each line and strip newlines)
+        modified_lines = [line.strip()[::-1] for line in lines]
+
+        # New output filename
+        output_filename = "modified_" + filename
+
+        # Write to new file
+        with open(output_filename, "w") as f:
+            for line in modified_lines:
+                f.write(line + "\n")
+
+        print(f"✅ File processed successfully! Output written to: {output_filename}")
+
+    except FileNotFoundError:
+        print(f"❌ Error: The file '{filename}' does not exist.")
+    except IOError:
+        print(f"❌ Error: Could not read the file '{filename}' due to an I/O issue.")
+    except Exception as e:
+        print(f"⚠️ An unexpected error occurred: {e}")
+
+# Run the function
+if __name__ == "__main__":
+    process_file()
